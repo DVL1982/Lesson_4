@@ -73,7 +73,7 @@
   font-weight: 900;
 }
 
-#important {
+.important {
   font-family: "Lato";
   color: coral;
   font-weight: 700;
