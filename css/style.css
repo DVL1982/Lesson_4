@@ -1,9 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap"rel="stylesheet');
 
 @font-face {
   font-family: "Larsseit";
   src: url("../fonts/Larsseit/Larsseit.woff2") format("woff2"),
     url("../fonts/Larsseit/Larsseit.woff") format("woff");
+  font-display: swap;
   font-weight: 400;
   font-style: normal;
 }
@@ -12,7 +13,26 @@
   font-family: "Larsseit";
   src: url("../fonts/Larsseit/Larsseit-Bold.woff2") format("woff2"),
     url("../fonts/Larsseit/Larsseit-Bold.woff") format("woff");
-  font-weight: 700;
+  font-display: swap;
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Larsseit";
+  src: url("../fonts/Larsseit/Larsseit-BoldItalic.woff2") format("woff2"),
+    url("../fonts/Larsseit/Larsseit-BoldItalic.woff") format("woff");
+  font-display: swap;
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Lato";
+  src: url("../fonts/Lato/Lato-Heavy.woff2") format("woff2"),
+    url("../fonts/Lato/Lato-Heavy.woff") format("woff");
+  font-display: swap;
+  font-weight: 500;
   font-style: normal;
 }
 
@@ -20,33 +40,26 @@
   font-family: "Lato";
   src: url("../fonts/Lato/Lato-Regular.woff2") format("woff2"),
     url("../fonts/Lato/Lato-Regular.woff") format("woff");
-  font-weight: 400;
+  font-display: swap;
+  font-weight: 500;
   font-style: normal;
 }
 
 .header {
   font-family: "Larsseit";
-  src: url("../fonts/Larsseit/Larsseit-Bold.woff2") format("woff2"),
-    url("../fonts/Larsseit/Larsseit-Bold.woff") format("woff");
+  font-size: 25px;
+  font-weight: 400;
   font-style: italic;
-  font-size: 35px;
 }
 
 .headersmall {
-  font-family: "Lato";
-  src: url("../fonts/Lato/Lato-Regular.woff2") format("woff2"),
-    url("../fonts/Lato/Lato-Regular.woff") format("woff");
-  font-weight: 900;
+  font-family: "Larsseit";
+  font-weight: 700;
   font-style: normal;
 }
 
-.body {
-  font-family: "Larsseit";
-  src: url("../fonts/Larsseit/Larsseit-Bold.woff2") format("woff2"),
-    url("../fonts/Larsseit/Larsseit-Bold.woff") format("woff");
-  font-display: swap;
-  font-weight: 700;
-  font-style: italic;
+.main {
+  font-family: "Roboto";
 }
 
 .link,
@@ -56,16 +69,15 @@
 
 .link,
 .link2 {
-  font-family: "Roboto";
-  src: url('https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet');
-  font-weight: 600;
+  font-family: "Lato";
+  font-weight: 900;
 }
 
 #important {
-  font-family: "Roboto";
-  src: url('https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet');
-  font-weight: 400;
+  font-family: "Larsseit";
+  font-size: 25px;
   color: coral;
+  font-style: normal;
 }
 
 #top {
